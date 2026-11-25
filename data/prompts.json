@@ -1,0 +1,12 @@
+{
+  "K1": {
+    "common": "전제가 참이라고 가정하고 다음 기준으로 가설을 분류하세요.\nentailment: 전제의 언어적으로 허용되는 해석 중 적어도 하나에서, 전제가 참인 모든 상황에 가설도 참이다.\ncontradiction: 전제의 언어적으로 허용되는 모든 해석에서, 전제가 참인 모든 상황에 가설은 거짓이다.\nneutral: 위 두 조건에 해당하지 않는다.\n가설이 참일 수 있다는 것만으로 entailment를 선택하지 마세요. 전제에 없는 사실을 추가하지 말고, 전제와 가설에서 척도·참여자·문맥상 비교 대상을 일관되게 유지하세요.",
+    "body": "전제: {premise}\n가설: {hypothesis}\n\n위 기준에 따라 전제와 가설의 관계를 판단하세요.",
+    "output": "entailment, contradiction, neutral 중 하나만 출력하세요."
+  },
+  "E1": {
+    "common": "Assume the premise is true and classify the hypothesis using these criteria.\nentailment: Under at least one linguistically licensed reading of the premise, the hypothesis is true in every situation where the premise is true.\ncontradiction: Under every linguistically licensed reading of the premise, the hypothesis is false in every situation where the premise is true.\nneutral: Neither condition above holds.\nDo not select entailment merely because the hypothesis could be true. Do not add facts absent from the premise. Keep the scale, participants, and contextually relevant comparison alternatives consistent between the premise and hypothesis.",
+    "body": "Premise: {premise}\nHypothesis: {hypothesis}\n\nUsing the criteria above, determine the relationship between the premise and hypothesis.",
+    "output": "Output only one of: entailment, contradiction, neutral."
+  }
+}

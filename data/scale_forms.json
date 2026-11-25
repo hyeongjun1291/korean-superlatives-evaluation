@@ -1,0 +1,42 @@
+{
+  "text_length": {
+    "adnom": "긴",
+    "adv": "길게",
+    "adj": "길었다",
+    "past": "썼다",
+    "rel": "쓴",
+    "ben": "써주었다",
+    "brel": "써준",
+    "category": "글"
+  },
+  "drawing_size": {
+    "adnom": "큰",
+    "adv": "크게",
+    "adj": "컸다",
+    "past": "그렸다",
+    "rel": "그린",
+    "ben": "그려주었다",
+    "brel": "그려준",
+    "category": "도형"
+  },
+  "construction_height": {
+    "adnom": "높은",
+    "adv": "높게",
+    "adj": "높았다",
+    "past": "쌓았다",
+    "rel": "쌓은",
+    "ben": "쌓아주었다",
+    "brel": "쌓아준",
+    "category": "구조물"
+  },
+  "gift": {
+    "adnom": "비싼",
+    "adv": "비싸게",
+    "adj": "비쌌다",
+    "past": "샀다",
+    "rel": "산",
+    "ben": "사주었다",
+    "brel": "사준",
+    "category": "선물"
+  }
+}

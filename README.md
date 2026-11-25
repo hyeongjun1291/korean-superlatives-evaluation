@@ -1,33 +1,23 @@
-# Evaluating Korean Superlatives in Language Models
+# Korean Superlatives Evaluation
 
-An undergraduate research project at Seoul National University investigating whether large language models distinguish the interpretations of Korean superlative constructions.
+An evaluation of LLM inference on Korean superlative constructions, based on Lee (2018), *A Pragmatic Account of the Relative Readings in Korean Superlatives*.
 
 ## Overview
 
-- 900 initial NLI items generated from 25 templates
-- 840 items retained after linguistic review
-- 8 language models evaluated under Korean and English instructions
-- 14,400 model responses collected
+This notebook reproduces the initial classroom-presentation analysis: 900 items, 450 matched pairs (200 diagnostic and 250 control), eight models, two instruction languages, and 14,400 collected responses. The subsequent refined 840-item analysis in the portfolio is a separate version.
 
-The evaluation compares item-level accuracy with diagnostic and control pair performance to examine whether models distinguish construction-dependent interpretations.
+## Reproduce
 
-## Repository Structure
+Install `pandas` and `notebook`, then open `korean_superlatives_evaluation.ipynb` from the repository root and run the cells in order. The saved responses support offline analysis without API keys.
 
-- `korean_superlatives_evaluation.ipynb` — Dataset construction and result analysis
-- `benchmark.py` — Linguistic templates and item generation
-- `experiment.py` — LLM API request configurations
-- `data/` — Lexical resources, prompts, and collected responses
+## Files
 
-## Usage
+- `benchmark.py`: Korean sentence templates and item identifiers
+- `experiment.py`: API request configuration
+- `data/`: lexical resources, scale forms, prompts and saved responses
 
-Open the Jupyter notebook and run the cells in order. The collected responses allow offline analysis without additional API calls.
-
-## Reference
-
-Lee (2018). A Pragmatic Account of the Relative Readings in Korean Superlatives.
+API requests, if separately invoked, require `OPENAI_API_KEY` or `OPENROUTER_API_KEY` as environment variables.
 
 ## Author
 
-Hyeongjun Cho  
-Seoul National University  
-Linguistics / Humanities Data Science
+Hyeongjun Cho, Seoul National University

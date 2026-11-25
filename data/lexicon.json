@@ -1,0 +1,752 @@
+[
+  {
+    "group": "Q01",
+    "family": "quantity",
+    "noun": "논문",
+    "stage": "기본",
+    "verb_family": "read",
+    "category": "글"
+  },
+  {
+    "group": "Q02",
+    "family": "quantity",
+    "noun": "기사",
+    "stage": "기본",
+    "verb_family": "read",
+    "category": "글"
+  },
+  {
+    "group": "Q03",
+    "family": "quantity",
+    "noun": "보고서",
+    "stage": "기본",
+    "verb_family": "read",
+    "category": "글"
+  },
+  {
+    "group": "Q04",
+    "family": "quantity",
+    "noun": "편지",
+    "stage": "기본",
+    "verb_family": "read",
+    "category": "글"
+  },
+  {
+    "group": "Q05",
+    "family": "quantity",
+    "noun": "우표",
+    "stage": "기본",
+    "verb_family": "collect",
+    "category": "수집품"
+  },
+  {
+    "group": "Q06",
+    "family": "quantity",
+    "noun": "엽서",
+    "stage": "기본",
+    "verb_family": "collect",
+    "category": "수집품"
+  },
+  {
+    "group": "Q07",
+    "family": "quantity",
+    "noun": "배지",
+    "stage": "기본",
+    "verb_family": "collect",
+    "category": "수집품"
+  },
+  {
+    "group": "Q08",
+    "family": "quantity",
+    "noun": "소설",
+    "stage": "기본",
+    "verb_family": "read",
+    "category": "글"
+  },
+  {
+    "group": "Q09",
+    "family": "quantity",
+    "noun": "시",
+    "stage": "기본",
+    "verb_family": "read",
+    "category": "글"
+  },
+  {
+    "group": "Q10",
+    "family": "quantity",
+    "noun": "수필",
+    "stage": "기본",
+    "verb_family": "read",
+    "category": "글"
+  },
+  {
+    "group": "Q11",
+    "family": "quantity",
+    "noun": "동화",
+    "stage": "기본",
+    "verb_family": "read",
+    "category": "글"
+  },
+  {
+    "group": "Q12",
+    "family": "quantity",
+    "noun": "희곡",
+    "stage": "기본",
+    "verb_family": "read",
+    "category": "글"
+  },
+  {
+    "group": "Q13",
+    "family": "quantity",
+    "noun": "평론",
+    "stage": "기본",
+    "verb_family": "read",
+    "category": "글"
+  },
+  {
+    "group": "Q14",
+    "family": "quantity",
+    "noun": "스티커",
+    "stage": "기본",
+    "verb_family": "collect",
+    "category": "수집품"
+  },
+  {
+    "group": "Q15",
+    "family": "quantity",
+    "noun": "열쇠고리",
+    "stage": "기본",
+    "verb_family": "collect",
+    "category": "수집품"
+  },
+  {
+    "group": "Q16",
+    "family": "quantity",
+    "noun": "트레이딩 카드",
+    "stage": "기본",
+    "verb_family": "collect",
+    "category": "수집품"
+  },
+  {
+    "group": "Q17",
+    "family": "quantity",
+    "noun": "책갈피",
+    "stage": "기본",
+    "verb_family": "collect",
+    "category": "수집품"
+  },
+  {
+    "group": "Q18",
+    "family": "quantity",
+    "noun": "미니어처",
+    "stage": "기본",
+    "verb_family": "collect",
+    "category": "수집품"
+  },
+  {
+    "group": "Q19",
+    "family": "quantity",
+    "noun": "피규어",
+    "stage": "기본",
+    "verb_family": "collect",
+    "category": "수집품"
+  },
+  {
+    "group": "Q20",
+    "family": "quantity",
+    "noun": "포스터",
+    "stage": "기본",
+    "verb_family": "collect",
+    "category": "수집품"
+  },
+  {
+    "group": "P01",
+    "family": "price_gift",
+    "noun": "케이크",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P02",
+    "family": "price_gift",
+    "noun": "가방",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P03",
+    "family": "price_gift",
+    "noun": "시계",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P04",
+    "family": "price_gift",
+    "noun": "의자",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P05",
+    "family": "price_gift",
+    "noun": "만년필",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P06",
+    "family": "price_gift",
+    "noun": "볼펜",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P07",
+    "family": "price_gift",
+    "noun": "노트",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P08",
+    "family": "price_gift",
+    "noun": "지갑",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P09",
+    "family": "price_gift",
+    "noun": "모자",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P10",
+    "family": "price_gift",
+    "noun": "목도리",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P11",
+    "family": "price_gift",
+    "noun": "벨트",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P12",
+    "family": "price_gift",
+    "noun": "머그잔",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P13",
+    "family": "price_gift",
+    "noun": "꽃병",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P14",
+    "family": "price_gift",
+    "noun": "액자",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P15",
+    "family": "price_gift",
+    "noun": "인형",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P16",
+    "family": "price_gift",
+    "noun": "오르골",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P17",
+    "family": "price_gift",
+    "noun": "다이어리",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P18",
+    "family": "price_gift",
+    "noun": "지우개",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P19",
+    "family": "price_gift",
+    "noun": "필통",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "P20",
+    "family": "price_gift",
+    "noun": "브로치",
+    "stage": "기본",
+    "verb_family": "buy_and_buy_for"
+  },
+  {
+    "group": "POSS-U2",
+    "family": "possession",
+    "noun": "앨범",
+    "stage": "기본",
+    "verb_family": "possess",
+    "band": "U2"
+  },
+  {
+    "group": "S02",
+    "family": "possession",
+    "noun": "포스터",
+    "stage": "기본",
+    "verb_family": "possess",
+    "band": "U2"
+  },
+  {
+    "group": "S03",
+    "family": "possession",
+    "noun": "티셔츠",
+    "stage": "기본",
+    "verb_family": "possess",
+    "band": "U2"
+  },
+  {
+    "group": "S04",
+    "family": "possession",
+    "noun": "배지",
+    "stage": "기본",
+    "verb_family": "possess",
+    "band": "U2"
+  },
+  {
+    "group": "S05",
+    "family": "possession",
+    "noun": "엽서",
+    "stage": "기본",
+    "verb_family": "possess",
+    "band": "U2"
+  },
+  {
+    "group": "S06",
+    "family": "possession",
+    "noun": "스티커",
+    "stage": "기본",
+    "verb_family": "possess",
+    "band": "U2"
+  },
+  {
+    "group": "S07",
+    "family": "possession",
+    "noun": "열쇠고리",
+    "stage": "기본",
+    "verb_family": "possess",
+    "band": "U2"
+  },
+  {
+    "group": "S08",
+    "family": "possession",
+    "noun": "머그잔",
+    "stage": "기본",
+    "verb_family": "possess",
+    "band": "U2"
+  },
+  {
+    "group": "S09",
+    "family": "possession",
+    "noun": "달력",
+    "stage": "기본",
+    "verb_family": "possess",
+    "band": "U2"
+  },
+  {
+    "group": "S10",
+    "family": "possession",
+    "noun": "사진집",
+    "stage": "기본",
+    "verb_family": "possess",
+    "band": "U2"
+  },
+  {
+    "group": "L01",
+    "family": "text_length",
+    "noun": "편지",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "L02",
+    "family": "text_length",
+    "noun": "시",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "L03",
+    "family": "text_length",
+    "noun": "동화",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "L04",
+    "family": "text_length",
+    "noun": "소설",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "L05",
+    "family": "text_length",
+    "noun": "보고서",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "D01",
+    "family": "drawing_size",
+    "noun": "원",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "D02",
+    "family": "drawing_size",
+    "noun": "삼각형",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "D03",
+    "family": "drawing_size",
+    "noun": "사각형",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "D04",
+    "family": "drawing_size",
+    "noun": "오각형",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "D05",
+    "family": "drawing_size",
+    "noun": "타원",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "H01",
+    "family": "construction_height",
+    "noun": "탑",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "H02",
+    "family": "construction_height",
+    "noun": "담",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "H03",
+    "family": "construction_height",
+    "noun": "벽",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "H04",
+    "family": "construction_height",
+    "noun": "돌탑",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "H05",
+    "family": "construction_height",
+    "noun": "둑",
+    "stage": "척도 확장"
+  },
+  {
+    "group": "L06",
+    "family": "text_length",
+    "noun": "수필",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L07",
+    "family": "text_length",
+    "noun": "시나리오",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L08",
+    "family": "text_length",
+    "noun": "대본",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L09",
+    "family": "text_length",
+    "noun": "연설문",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L10",
+    "family": "text_length",
+    "noun": "축사",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L11",
+    "family": "text_length",
+    "noun": "기행문",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L12",
+    "family": "text_length",
+    "noun": "서평",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L13",
+    "family": "text_length",
+    "noun": "평론",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L14",
+    "family": "text_length",
+    "noun": "안내문",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L15",
+    "family": "text_length",
+    "noun": "소개글",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L16",
+    "family": "text_length",
+    "noun": "추천서",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L17",
+    "family": "text_length",
+    "noun": "청원서",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L18",
+    "family": "text_length",
+    "noun": "탄원서",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L19",
+    "family": "text_length",
+    "noun": "추도사",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "L20",
+    "family": "text_length",
+    "noun": "사과문",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D06",
+    "family": "drawing_size",
+    "noun": "직사각형",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D07",
+    "family": "drawing_size",
+    "noun": "정사각형",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D08",
+    "family": "drawing_size",
+    "noun": "마름모",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D09",
+    "family": "drawing_size",
+    "noun": "평행사변형",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D10",
+    "family": "drawing_size",
+    "noun": "사다리꼴",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D11",
+    "family": "drawing_size",
+    "noun": "육각형",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D12",
+    "family": "drawing_size",
+    "noun": "칠각형",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D13",
+    "family": "drawing_size",
+    "noun": "팔각형",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D14",
+    "family": "drawing_size",
+    "noun": "십각형",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D15",
+    "family": "drawing_size",
+    "noun": "반원",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D16",
+    "family": "drawing_size",
+    "noun": "부채꼴",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D17",
+    "family": "drawing_size",
+    "noun": "별 모양",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D18",
+    "family": "drawing_size",
+    "noun": "하트 모양",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D19",
+    "family": "drawing_size",
+    "noun": "십자 모양",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "D20",
+    "family": "drawing_size",
+    "noun": "화살표 모양",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "H06",
+    "family": "construction_height",
+    "noun": "성벽",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "H07",
+    "family": "construction_height",
+    "noun": "돌담",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "H08",
+    "family": "construction_height",
+    "noun": "축대",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "H09",
+    "family": "construction_height",
+    "noun": "방벽",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "H10",
+    "family": "construction_height",
+    "noun": "방파제",
+    "stage": "후속 증강"
+  },
+  {
+    "group": "S11",
+    "family": "possession",
+    "noun": "후드티",
+    "stage": "후속 증강",
+    "band": "콜드플레이"
+  },
+  {
+    "group": "S12",
+    "family": "possession",
+    "noun": "에코백",
+    "stage": "후속 증강",
+    "band": "콜드플레이"
+  },
+  {
+    "group": "S13",
+    "family": "possession",
+    "noun": "파우치",
+    "stage": "후속 증강",
+    "band": "콜드플레이"
+  },
+  {
+    "group": "S14",
+    "family": "possession",
+    "noun": "손목밴드",
+    "stage": "후속 증강",
+    "band": "콜드플레이"
+  },
+  {
+    "group": "S15",
+    "family": "possession",
+    "noun": "마그넷",
+    "stage": "후속 증강",
+    "band": "콜드플레이"
+  },
+  {
+    "group": "S16",
+    "family": "possession",
+    "noun": "수건",
+    "stage": "후속 증강",
+    "band": "라디오헤드"
+  },
+  {
+    "group": "S17",
+    "family": "possession",
+    "noun": "스카프",
+    "stage": "후속 증강",
+    "band": "라디오헤드"
+  },
+  {
+    "group": "S18",
+    "family": "possession",
+    "noun": "휴대폰 케이스",
+    "stage": "후속 증강",
+    "band": "라디오헤드"
+  },
+  {
+    "group": "S19",
+    "family": "possession",
+    "noun": "노트",
+    "stage": "후속 증강",
+    "band": "라디오헤드"
+  },
+  {
+    "group": "S20",
+    "family": "possession",
+    "noun": "볼펜",
+    "stage": "후속 증강",
+    "band": "라디오헤드"
+  }
+]
